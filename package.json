@@ -1,0 +1,45 @@
+{
+  "name": "eventsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/danielsandorfer/zavrsni-rad.git"
+  },
+  "author": "Daniel Šandor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/danielsandorfer/zavrsni-rad/issues"
+  },
+  "homepage": "https://gitlab.com/danielsandorfer/zavrsni-rad#readme",
+  "keywords": [],
+  "dependencies": {
+    "aws-sdk": "^2.663.0",
+    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "pg": "^8.0.0",
+    "pino": "^6.1.1",
+    "pino-http": "^5.0.0",
+    "pino-pretty": "^4.0.0",
+    "react-geocode": "^0.2.1",
+    "sequelize": "^5.21.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

@@ -1,0 +1,277 @@
+.container {
+    margin: auto;
+    width: 80% !important;
+    
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: white;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-2 {
+    margin: auto;
+    width: 20%;
+    text-align: left;
+    margin-right: 120px;
+}
+.naziv {
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.container-2 a {
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(207, 167, 167) !important;
+}
+.tablica {
+    margin: auto;
+    width: 80%;
+}
+.remedyListTable::-webkit-scrollbar {
+    background-color:rgba(255, 255, 255, 0);
+    width:5px
+}
+
+/* background of the scrollbar except button or resizer */
+.remedyListTable::-webkit-scrollbar-track {
+    background-color:rgba(255, 255, 255, 0)
+}
+.remedyListTable::-webkit-scrollbar-track:hover {
+    background-color:#f4f4f400
+}
+
+/* scrollbar itself */
+.remedyListTable::-webkit-scrollbar-thumb {
+    background-color:#f5f5f563;
+    border-radius:16px;
+    border:5px solid rgba(255, 255, 255, 0)
+}
+.remedyListTable::-webkit-scrollbar-thumb:hover {
+    background-color:#e0e0e052;
+    border: none;
+}
+
+/* set button(top and bottom of the scrollbar) */
+.remedyListTable::-webkit-scrollbar-button {display:none}
+
+.infoLeft {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.infoRight {
+    width: 40%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.infoLeft h3 {
+    margin-left: 25px;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 600;
+    color: #5F6772;
+    text-transform: capitalize;
+}
+
+.infoLeft h4{
+    margin-left: 25px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #5F6772;
+}
+
+.filter {
+    margin: auto;
+    width: 80% !important;
+    
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: white;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.filter-container {
+    margin-left: 10%;
+    float: left;
+    width: 20% !important;
+    border-style: solid;
+   /* border-color: rgb(122, 197, 181);*/
+    border-color: rgb(237, 239, 241);
+    border-radius: 3px;
+    margin-top: 20px;
+    /*background-color: rgb(135, 197, 184);*/
+    background-color: rgb(233, 235, 236);
+    margin-bottom: 10px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+}
+.filter-container input{
+
+    background-color: rgb(240, 240, 240);
+    border-color: black;
+    color: black;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.filter-button {
+    display: flex;
+    margin: auto;
+}
+.filter-container input::placeholder {
+    color: grey;
+}
+/*.....................*/
+
+.container-grid {
+    margin: auto;
+    width: 80% !important;  
+    border-style: solid;
+    border-color: white;
+    border-radius: 3px;
+    margin-top: 20px;
+    height: 365px;
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px 1px;
+    margin: 20px;
+    padding-bottom: 4%;
+    min-height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: overlay;
+}
+
+/*scrollbar*/
+
+
+.container-grid::-webkit-scrollbar {
+    background-color:rgba(170, 159, 159, 0.959);
+    width:5px
+}
+.container-grid::-webkit-scrollbar-track {
+    background-color:rgba(255, 255, 255, 0)
+}
+.container-grid::-webkit-scrollbar-track:hover {
+    background-color:#978d8dc0
+}
+.container-grid::-webkit-scrollbar-thumb {
+    background-color:#f5f5f596;
+    border-radius:16px;
+    border:5px solid rgba(255, 255, 255, 0)
+}
+.container-grid::-webkit-scrollbar-thumb:hover {
+    background-color:#e0e0e052;
+    border: none;
+}
+.container-grid::-webkit-scrollbar-button {display:none}
+
+
+.grid-3 {
+    flex-basis: 25%;
+    margin-bottom: 5%;
+    
+}
+
+.grid-events {
+    display: flex;
+    /*justify-content: space-between;*/
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 15%;
+    margin-left: 8%;
+    margin-right: 5%;
+}
+
+.infoBottom {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+}
+
+
+.infoTop {
+    width: 100%;
+    height: 45%;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.infoBottom h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    color: #5F6772;
+    text-transform: capitalize;
+    margin-bottom: 1px;
+}
+
+.infoBottom h4{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    color: #5F6772;
+
+}		
+
+
+.more-button {
+    width: 90px;
+    margin-bottom: 27px;
+}
+
+
+.container-events-list {
+  
+        margin: auto;
+        width: 50% !important;
+        margin-left: 140px;
+        height: 150px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 5px;
+        margin-top: 300px;
+        background-color: white;
+        margin-bottom: 500px;
+        box-shadow: 1px 1px 1px 1px;
+        display: flex;
+        flex-direction: row;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.top {
+    margin-bottom: 100px;
+}

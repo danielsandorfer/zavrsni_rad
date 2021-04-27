@@ -1,0 +1,223 @@
+
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#body2{
+  min-height: 30vh;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+
+
+
+/**************** header *********************/
+.header{
+  background-color: #56a075;
+  color: rgb(223, 215, 215);
+  text-shadow: 1px 1px #383434;
+  width: 100%;
+  text-align: left;
+  min-height: 310px;
+  max-height: 510px;
+  padding: 30px;
+  background-image: url(https://eventappfer.s3.eu-west-2.amazonaws.com/events/silhouette-of-people-in-front-of-stage-1763067-780x470.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.header-title{
+  font-size: 50px;
+  font-weight: 300px;
+  margin-left: 5%;
+  margin-top: 350px;
+}
+
+.header-text{
+  font-size: 30px;
+ /* margin-left: 5%;*/
+}
+
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+
+
+.home {
+   background-image: linear-gradient(to bottom right, rgb(36, 110, 139), rgb(145, 177, 190)) !important;
+}
+
+
+/******* karta  ***********/
+
+.map-cont {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+.karta {
+ flex-basis: 95%;
+  padding-bottom: 730px;
+}
+
+
+/********* search inputs **************/
+.map-search-2 .filter-container-5 {
+  display: flex;
+  justify-content: space-between;
+  width: 30px;
+  flex-direction: row;
+}
+
+.map-search-2 .filter-container-5 .start-date-2{
+  flex-basis: 33% !important;
+  margin-right: 30px !important;  
+
+}
+
+.map-search-2 {
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+}
+
+
+.map-search {
+  color: rgb(0, 0, 0);
+  width: 90%;
+  text-align: center;
+  min-height: 210px;
+  padding: 30px ;
+  display: flex;
+}
+.grid-events-home {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 30px;
+}
+
+.grid-2-elements {
+  flex-basis: 25%;
+  margin-bottom: 5%;
+  margin-left: 30%;
+}
+
+.container-grid-home {
+  margin: auto;
+}
+.container-grid-home input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: thick;
+  display: block;
+  background-color: rgb(79, 83, 88);
+  border: 1px solid #504d4d;
+  color: white;
+}
+
+.form-wrapper-home {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 40px rgb(66, 62, 62);
+  background-color: rgb(59, 65, 73);
+  margin: auto !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  padding-bottom: 40px;
+}
+
+.start-input-div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.end-input-div {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.form-wrapper-home-2 .start-input-div {
+  display: inline-block;
+}
+.form-wrapper-home-2 .end-input-div {
+  display: inline-block;
+}
+.form-wrapper-home-2 {
+  margin-bottom: 5%;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 40px;
+  margin: auto !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  padding-bottom: 40px;
+  
+}
+
+.start-input-div {
+  display: inline-block;
+}
+
+
+.form-inline {  
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+
+.form-inline input {
+  vertical-align: middle;
+  display: block;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(79, 83, 88);
+  border: 1px solid #504d4d;
+  color: white;
+}
+
+.forms {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 12%;
+  padding: 15px;
+}
+.first-form {
+  margin-right: 100px;
+}
+.map-input-button-location {
+  margin-left: 0px;
+}
+.map-input-button-period {
+
+  margin-left: 0px;
+}

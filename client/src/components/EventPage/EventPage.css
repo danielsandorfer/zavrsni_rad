@@ -1,0 +1,179 @@
+.wrapper {
+    text-align: center;
+    width: 50px;
+    height: 5px;
+  }
+.button {
+    position: absolute;
+    top: 50%;
+  }
+.addComment{
+  margin-top: 15px;
+}
+.commentButton {
+  margin-right: 15px;
+}
+.deleteComButton {
+  border-radius: 5px !important;
+  min-height: 2px;
+}
+.komentari {
+  overflow: hidden;
+}
+
+.eventPage {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.info h1 {
+  text-transform: uppercase;
+}
+  .container-event {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+    color: #5F6772;
+  }
+
+  .info{
+    margin-top: 80px !important;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: 2px 2px 8px rgb(165, 165, 165);
+    -moz-box-shadow: 2px 2px 8px rgb(165, 165, 165);
+    -webkit-box-shadow: 2px 2px 8px rgb(165, 165, 165);
+    min-height: 300px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 75%;
+
+}
+
+
+
+.komentari-box {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  box-shadow: 2px 2px 8px rgb(165, 165, 165);
+  -moz-box-shadow: 2px 2px 8px rgb(165, 165, 165);
+  -webkit-box-shadow: 2px 2px 8px rgb(165, 165, 165);
+  min-height: 100px;
+  max-height: 400px;
+  overflow-y: scroll;
+  overflow-wrap: break-word;
+  display: flex;
+  flex-direction: column; 
+  margin-bottom: 15px;
+}
+
+
+.komentari-box::-webkit-scrollbar {
+  background-color:rgb(0, 0, 0);
+  width:5px
+}
+.komentari-box::-webkit-scrollbar-track {
+  background-color:rgb(255, 255, 255)
+}
+.komentari-box::-webkit-scrollbar-track:hover {
+  background-color:#b3aaaaf5
+}
+.komentari-box::-webkit-scrollbar-thumb {
+  background-color:#00000063;
+  border-radius:16px;
+  border:5px solid rgba(255, 255, 255, 0)
+}
+.komentari-box::-webkit-scrollbar-thumb:hover {
+  background-color:#e0e0e0cb;
+  border: none;
+}
+.komentari-box::-webkit-scrollbar-button {display:none}
+
+
+
+.container-event .komentari {
+  max-width: 50%;
+  min-width: 40%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.komentari-info {
+  padding: 10px;
+}
+
+.info h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: #5F6772;
+  text-transform: capitalize;
+}
+
+.info h2 {
+  margin-left: 25px;
+  margin-right: 20px;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #5F6772;
+}
+
+.info .centerData {
+  margin-left: 25px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #5F6772;
+}
+
+.container-event .komentari .addComment .commentText {
+  margin-right: 2%;
+}
+.container-event .komentari .commentButtonAdd {
+  margin-top: 3%;
+}
+
+.comment::placeholder {
+  color: #5F6772;
+}
+
+.slike {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.slike .addImages {
+/*  margin-top: 20px; */
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+}
+
+.image-input-button {
+  margin-left: 2px;
+  margin-top: 5px;
+}
+
+.commentButtonAdd {
+  margin-top: 20px;
+}
+
+.commentText textarea {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}

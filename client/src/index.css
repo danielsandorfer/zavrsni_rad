@@ -1,0 +1,23 @@
+
+body {
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ /* background-color: rgb(159, 191, 204) !important;*/
+  background-image: linear-gradient(to bottom right, rgb(36, 110, 139), rgb(145, 177, 190)) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+::selection {
+  background: white;
+  color: black;
+}
+::-moz-selection {
+  background: white;
+  color: black;
+}
