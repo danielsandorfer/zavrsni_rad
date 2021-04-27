@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 
-const db = new Sequelize('postgres://ynropikr:9u1U6wd-22156eK8p40jFC_4pyafmiJ4@kandula.db.elephantsql.com:5432/ynropikr', {
+const db = new Sequelize('####', {
     pool: {
     max: 5,
     min: 0,
